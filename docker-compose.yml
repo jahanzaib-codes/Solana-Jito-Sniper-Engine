@@ -1,0 +1,10 @@
+services:
+  solana-sniper:
+    build: .
+    container_name: solana-jito-sniper
+    environment:
+      - SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
+      - MIN_LIQUIDITY_SOL=5.0
+      - SNIPE_AMOUNT_SOL=0.1
+      - SIMULATION_MODE=True
+    restart: unless-stopped
