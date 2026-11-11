@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Configuration & Private Keys (STRICT)
+.env
+.env.local
+*.pem
+*.key
+id.json
+wallet.json
+keypair.json
+
+# Testing & Artifacts (STRICT)
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Runtime
+*.log
+logs/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
